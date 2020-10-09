@@ -1,0 +1,157 @@
+/* Header section */
+.header {
+  background: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, .15);
+  height: 48px;
+  left: 0;
+  /* position: fixed; */
+  right: 0;
+  top: 0;
+  z-index: 10;
+  border-bottom: 5px solid rgba(167, 166, 166, 0.827);
+}
+
+.header__logo {
+  display: none;
+}
+
+.header__top-navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #131313;
+  color: hsla(0, 0%, 100%, .6);
+  padding: 20px;
+}
+
+.nav-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding-left: 0rem;
+}
+
+.nav-left li a{
+  color: #888;
+  padding: 10px;
+}
+
+.nav-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0rems;
+}
+
+.nav-right li a{
+  color: #888;
+  padding: 10px;
+}
+
+.header__bottom-navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-navbar-logo{
+  display: none;
+}
+
+.header__navbar-left{
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px
+}
+
+.header__navbar-left li a{
+  color: #888;
+  padding: 20px;
+}
+
+.bottom__nav-search{
+  border-left: 0.5px solid rgba(167, 166, 166, 0.827);
+  color: #aaa;
+  font-size: 1rem;
+  height: 5%;
+  width: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  padding: 15px;
+  border-bottom: 0.5px solid rgba(167, 166, 166, 0.827);
+}
+
+/* COVER SECTION */
+
+.front{
+  margin: 0 auto;
+padding-top: 80px;
+  position: relative;
+  height: 75vh;
+  max-height: 560px;
+  display: grid;
+  grid-template-columns: 2fr 1fr ;
+}
+
+.front__launch{
+  float: left;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.front__background{
+  /* background-image: url(../images/Sound-notifications-796x395.jpg); */
+  /* height: 100%;
+  width: 66.66666%; */
+  width: 100%;
+  height: 30rem;
+  color: rgb(255, 255, 255);
+  position: relative;
+  grid-area: feature-main / feature-main / feature-main / feature-main;
+  background: linear-gradient(to left bottom, rgba(151, 18, 18, 0.8) 10%, rgba(0, 0, 0, 0.8) 60%, rgb(0, 0, 0)) 0% 0% / cover,
+  url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg) no-repeat;
+  padding: 2rem;
+}
+
+.front__links-1{
+      transition: background-color .4s ease;
+      background: rgba(0, 0, 0, .25) url(../images/image-gradient.png) no-repeat;
+      background-size: 100% 100%;
+      display: block;
+      will-change: background-color;
+      z-index: 2;
+}
+
+.front__cover-gradient{
+  background: transparent url(../images/cover-gradient.png) no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  bottom: 4px;
+  left: 4px;
+  mix-blend-mode: lighten;
+  pointer-events: none;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  z-index: 4;
+}
+
+.front__cover-logo{
+      background: transparent url(../images/tnw-red.svg) no-repeat;
+      background-size: contain;
+      left: 24px;
+    width: 40rem;
+      height: 100%;
+      max-height: 112px;
+      line-height: 1;
+      top: 24px;
+      position: relative;
+      pointer-events: none;
+      text-align: right;
+      z-index: 100;
+}

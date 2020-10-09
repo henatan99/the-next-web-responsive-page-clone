@@ -1,63 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>            
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />      
-    <link rel="stylesheet" href="style.css" />   
-  </head>
 
-  <body>
-    <header class="header">
-      <div class="navbar">
-        <ul class="nav-left">
-          <li>News</li>
-          <li>Events</li>
-          <li>Business</li>
-          <li>AMAs</li>
-          <li>Spaces</li>
-          <li>Terms&Conditions</li>
-        </ul>
-        <ul class="nav-right">
-          <li>About</li>
-          <li>Advertise</li>
-          <li>Jobs</li>
-          <li>Contact</li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <title>TNW</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style/general.css" />
+</head>
+
+<body>
+  <!-- NAVBAR SECTION -->
+
+  <nav class="header">
+    <div class="header__logo">
+      <a href="#">
+        <img src="./images/tnw.svg" alt="logo">
+      </a>
+    </div>
+    <div class="header__top-navbar">
+      <ul class="nav-left">
+        <li><a href="#"> News</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">AMAs</a></li>
+        <li><a href="#">Spaces</a></li>
+        <li><a href="#">Terms&Conditions</a></li>
+      </ul>
+      <ul class="nav-right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Advertise</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="header__bottom-navbar">
+      <a href="#" class="bottom-navbar-logo"> <img src="images/tnw-red.svg" alt="tnw" class="tnw-img"></a>
+      <ul class="header__navbar-left">
+        <li><a href="#">LATEST</a></li>
+        <li><a href="#">HARWORK</a></li>
+        <li><a href="#">PLUGGED</a></li>
+        <li><a href="#">README</a></li>
+        <li><a href="#">GROWTHQUARTERS</a></li>
+        <li><a href="#">SHIFT</a></li>
+        <li><a href="#">NEURAL</a></li>
+      </ul>
+
+      <div class="bottom__nav-search">
+        <label for="search">
+          <span class="search-border">
+            <i class="fas fa-search"></i>
+          </span>
+        </label>
       </div>
+    </div>
+  </nav>
 
-      <div class="navbar2">
-        <img src="images/tnw.svg" alt="tnw" class="tnw-img">
-        <ul class="nav2-left">
-            <li>LATEST</li>
-            <li>HARWORK</li>
-            <li>PLUGGED</li>
-            <li>README</li>
-            <li>GROWTHQUARTERS</li>
-            <li>SHIFT</li>
-            <li>NEURAL</li>
-        </ul>         
-        <span class="iconify nav2-right" data-icon="subway:search" data-inline="false"></span>
-      </div>       
-    </header>
+  <!-- COVER SECTION -->
 
-    <main>
-      <section class="front">
-        <article class="launch">
-          <h1>Three Biggest reasons why a company's digital transformation fails</h1>
-        </article>
-        <article class="watch">
-          <h1>Watch all TNW2020 talks on demand</h1>
-        </article>
-        <article class="tech">
-          <h1>Google Beefs up your account security with new in-app alerts</h1>
-        </article>
-      </section>
-    </main>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>  
-  </body>
+  <main>
+    <section class="front">
+      <article class="front__launch">
+        <div class="front__background">
+        </div>
+        <a href="#" class="front__links-1">
+        </a>
+        <div class="front__cover-gradient"></div>
+        <div class="front__cover-logo">
+          <img src="./images/tnw.svg" alt="tnw-img>
+        </div>
+        <div class="front__cover-date">Friday - October 9, 2020</div>
+        <header class="front__header">
+          <h2 class="front__header-title"></h2>
+          <ul class="front__byline">
+            <li> By <a href="#">Ivan Mehta </a></li>
+            <li>
+              <i class="fas fa-clock"></i>
+              <span class="time">46 minutes ago</span>
+            </li>
+            <li>
+              <i class="fas fa-share-alt"></i>
+              103
+            </li>
+          </ul>
+        </header>
+      </article>
+      <article class="watch">
+        <div class="watch__background">
+        </div>
+        <a href="#" class="watch__background-links"></a>
+        <header class="watch__header">
+          <h2 class="watch__header-title">
+            <a href="#">
+              Watch all TNW2020 talks on-demand
+            </a>
+          </h2>
+        </header>
+        <h1>Watch all TNW2020 talks on demand</h1>
+      </article>
+      <article class="tech">
+        <div class="tech__background"></div>
+        <a href="#" class="tech__background-links"></a>
+        <div class="tech__background-date">Friday - October 9, 2020</div>
+        <header class="tech__header">
+          <h5 class="tech__header-1">
+            <a href="#">Tech</a>
+          </h5>
+          <h2 class="tech__header-2">
+            Your 2FA phone got stolen. Now what?
+          </h2>
+          <ul class="tech__byline">
+            <li>
+              By <a href="#">Ivan Mehta </a>
+            </li>
+            <li>
+              <i class="fas fa-clock"></i>
+              <span class="time">46 minutes ago</span></li>
+            <li>
+              <i class="fas fa-share-alt"></i>
+              103</li>
+          </ul>
+        </header>
+      </article>
+    </section>
+
+    <!-- ARTICLES WRAPPER SECTION -->
+    <div class="main__wrapper">
+      <section class="main__wrapper-latest"></section>
+      <section class="main__wrapper-funding"></section>
+      <section class="main__wrapper-griddy"></section>
+      <section class="main__wrapper-deals"></section>
+    </div>
+  </main> -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+
 </html>
