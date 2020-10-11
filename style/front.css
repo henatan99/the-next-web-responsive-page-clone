@@ -1,0 +1,91 @@
+.front{
+    height: fit-content;
+    width: 100%;      
+    display: flex;
+    flex-direction: column;       
+    color:white;    
+    padding: 8px; 
+}
+
+.front a{
+    margin-bottom: 8px;
+}
+
+.front img{
+    size: 100%;
+}
+
+.launch{
+    background-image: url("../images/tnw2020-feature_img-02.jpg");     
+    height: 180px;
+    z-index: 10;
+}
+.watch{
+    background-image: url("../images/tnw2020-feature_img-02.jpg");  
+    height: 180px;
+}
+.tech{
+    background-image: url("../images/image-1-2-796x417.png");    
+    height: 180px;    
+}
+
+
+@media screen and (min-width: 768px) {
+    * {             
+        max-width: 1024px;
+    }
+    
+    
+
+    /* Front */
+    
+    .front{
+        height: 500px;        
+        display: grid;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: repeat(2, 1fr);      
+        grid-gap: 10px;
+    }     
+
+    .front article{
+        margin: 0;
+    }
+    
+    .launch{    
+        height: auto;    
+        grid-column: 1;
+        grid-row: 1/3;
+    }
+    .watch{          
+        height: auto; 
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .tech{ 
+        height: auto;       
+        grid-column: 2;
+        grid-row: 2;
+    }   
+}
+
+
+
+
+/* Medaia Query for min-tablet width */
+
+@media screen and (min-width: 1024px) {     
+
+    * {             
+        max-width: 1424px;
+    }
+
+
+    /* Front section */
+    
+    /* Latest news article */
+    .latest-news-article{
+        width: 25%;
+    }   
+
+}
+

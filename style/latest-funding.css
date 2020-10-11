@@ -1,0 +1,105 @@
+.lastest-funding {
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    font-size: 12px;        
+}
+
+.latest-funding-header {
+    width: 100%;
+}
+
+.lastest-funding h1{    
+    width: 100%;
+}
+
+.lastest-funding h1 img{
+    max-width: 20px;
+    float: right;
+}
+
+.lastest-funding article {  
+    float: left;
+    background:rgb(212, 206, 206); 
+    width: 98%;
+    margin-top: 15px;
+}
+
+.latest-funding-article-header {
+    width: 100%;
+    height: 100px;
+    display: inline-block;    
+    font-size: 9px;
+    position: relative;
+}
+
+.latest-funding-article-header img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
+
+.top-dollar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;    
+}
+
+.top {
+    background-color: tomato;
+    height: auto;
+    padding:10px 10px 10px 25%;    
+}
+
+.dollar{
+    height: auto;
+    background-color: thistle;
+    padding: 10px 10px 10px 25%;    
+}
+
+
+@media screen and (min-width: 768px) {
+    * {             
+        max-width: 1024px;
+    }
+    
+    
+    
+    /* Latest Funding section */
+
+    .lastest-funding {
+        padding: 20px 0 20px 20px;
+    }     
+
+    .lastest-funding article{
+        width: 30%;
+        margin-right: 20px;
+    }
+
+       
+}
+
+
+
+
+/* Medaia Query for min-tablet width */
+
+@media screen and (min-width: 1024px) {     
+
+    * {             
+        max-width: 1424px;
+    }
+
+    
+
+    /* Latest-funding-section */
+
+    .lastest-funding {
+        width: 75%;
+    }
+}
+
