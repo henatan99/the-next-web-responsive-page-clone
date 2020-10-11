@@ -25,7 +25,7 @@
 } */
 
 
-
+/* 
 * {
     box-sizing: border-box;
     margin: 0;
@@ -36,7 +36,7 @@
 img {
     max-width: 100%;
     display: block;
-}
+} */
 
 /* body {
     font-family: var(--font-family-primary);
@@ -66,4 +66,23 @@ img {
 main {
     display: flex;
     flex-direction: column;
+}
+
+body {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    * {             
+        max-width: 1024px;
+    }
+     
+}
+
+@media screen and (min-width: 1024px) {     
+
+    * {             
+        max-width: 2560px;
+    }
+
 }
