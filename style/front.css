@@ -35,6 +35,7 @@
 }
 .tech{
     background-image: url("../images/image-1-2-796x417.png");    
+<<<<<<< HEAD
     height: 180px;   
     position: relative; 
 }
@@ -52,6 +53,10 @@
 .story-category {
     margin-bottom: 0;
 
+=======
+    height: 180px;    
+    z-index: 11;
+>>>>>>> d96ca2a52beebd51baf3bd60d39558c0c71fc650
 }
 
 .story-heading {
@@ -102,20 +107,77 @@
         grid-row: 1/3;
     }
 
+<<<<<<< HEAD
     .launch-story-heading{        
         font-size: 40px;        
     }
     
+=======
+    .launch-story-category {
+        position: absolute;
+        bottom: 104px;
+        color: #fff;
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    .launch-story-heading{
+        color: #fff;
+        position: absolute;
+        bottom: 60px;
+        font-size: 1.6rem;
+        padding: 20px;
+        font-weight: 800;
+        font-family: var(--font-family-secondary);
+    }
+
+    .cover-story-info-1{
+        display: block;
+        position: absolute;
+        bottom: 60px;
+        padding: 10px;
+        margin-left: 10px;
+        z-index: 10;
+    }
+
+    .cover-story-info-1 a{
+        color: #fff;
+        padding-right: 10px;
+    }
+
+    .cover-story-info-1 span{
+        padding-right: 10px;
+    }
+
+>>>>>>> d96ca2a52beebd51baf3bd60d39558c0c71fc650
     .watch{          
         height: auto; 
         grid-column: 2;
         grid-row: 1;
+    }
+
+    .cover-story-heading-1 {
+        color: #fff;
+        font-size: 20px;
+        padding: 20px;
+        position: absolute;
+        bottom: 290px;
+        font-family: var(--font-family-secondary);
+        
+    }
+    
+    .cover-story-heading{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: var(--font-family-secondary);
     }
     .tech{ 
         height: auto;       
         grid-column: 2;
         grid-row: 2;
     }   
+<<<<<<< HEAD
 
     .tnw-tech-img {
         display: block;
@@ -126,6 +188,101 @@
     }
 
     
+=======
+
+    .tech-byline-info{
+        display: block;
+        position: absolute;
+        bottom: 45px;
+        padding: 10px;
+        margin-left: 10px;
+        z-index: 20;
+        right: 0px;
+
+    }
+
+    .tech-byline-info a{
+        color: #fff;
+        padding-right: 20px;
+    }
+
+    .tech-byline-info span{
+        padding-right: 20px;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES */
+@media screen and (max-width: 767px) {
+.launch-story-category {
+    position: absolute;
+    bottom: 488px;
+    color: #fff;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.launch-story-heading {
+    color: #fff;
+    position: absolute;
+    bottom: 440px;
+    font-size: 1.2rem;
+    padding: 20px;
+    font-weight: 600;
+    font-family: var(--font-family-secondary);
+}
+
+.cover-story-info-1 {
+    display: block;
+    position: absolute;
+    bottom: 432px;
+    z-index: 19;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.cover-story-info-1 a {
+    color: #fff;
+    padding-right: 10px;
+}
+
+.cover-story-info-1 span {
+    padding-right: 10px;
+}
+
+.cover-story-heading-1 {
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    position: absolute;
+    bottom: 200px;
+    font-family: var(--font-family-secondary);
+
+}
+
+.cover-story-heading{
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 80px;
+    padding: 10px;
+    font-family: var(--font-family-secondary);
+}
+
+.tech-byline-info{
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    padding: 10px;
+    margin-left: 10px;
+    z-index: 20;
+    right: 188px;
+}
+
+.tech-byline-info a{
+color: #fff;
+}
+
+>>>>>>> d96ca2a52beebd51baf3bd60d39558c0c71fc650
 }
 
 
@@ -140,6 +297,37 @@
 
     /* Front section */
     
+    .launch{
+        background: linear-gradient(159deg, rgb(255, 38, 0) 0%, rgb(255, 38, 06) 20%, rgba(0, 0, 0, 0.8) 60%, rgba(0, 0, 0, 1) 100%);
+        transition: all 1s;
+    }
+
+    .launch-story-category {
+        position: absolute;
+        bottom: 205px;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+
+    .launch-story-heading {
+        color: #fff;
+        position: absolute;
+        bottom: 131px;
+        font-size: 33px;
+        padding: 20px;
+        font-weight: 600;
+        font-family: var(--font-family-secondary);
+    }
+
+    .cover-story-heading{
+        font-size: 1.7rem;
+        padding: 20px;
+        position: absolute;
+        bottom: 85px;
+        font-family: var(--font-family-secondary);
+    }
+
     /* Latest news article */
     .latest-news-article{
         width: 25%;
