@@ -1,0 +1,104 @@
+.latest-deals{
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    color: black;
+}
+
+.latest-deals-img{
+    width: 25%;
+    height: 100%;
+    float: left;
+    
+}
+
+.discount-tag {
+    display: none;
+}
+
+.latest-deals h1{
+    text-decoration: none;
+}
+
+.latest-deals small{
+    font-size: 16px;
+}
+
+.latest-deals-content {
+    width: 75%;
+    float: right;
+    font-size: 10px;
+    padding: 0 5px 0 16px;
+}
+
+.latest-deals h2{
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.latest-deals p{
+    font-size: 14px;
+    color: rgb(75, 73, 73);
+}
+
+.latest-deals article{
+    height: 5em;   
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    * {             
+        max-width: 1024px;
+    }     
+    
+    .latest-deals {
+        width: 100%;
+    }
+
+    .latest-deals article{
+        width: 33.33%;
+        padding-right: 10px;
+        height: auto;
+        position: relative;
+    }
+
+    .latest-deals-img {
+        width: 100%;
+        height: auto;        
+    }
+
+    .discount-tag{
+        display: block;
+        width: 30%;
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+
+    .latest-deals-content {
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* Medaia Query for min-tablet width */
+
+@media screen and (min-width: 1024px) {     
+
+    * {             
+        max-width: 2560px;
+    }
+
+    
+    .latest-deals article{
+        width: 25%;
+        margin-right: 0;
+        height: auto;
+    }
+}

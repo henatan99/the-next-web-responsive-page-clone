@@ -8,7 +8,8 @@
 @import url("./latest-news.css");
 @import url("./latest-funding.css");
 @import url("./business.css");
-
+@import url("./latest-deals.css");
+@import url("./footer-section.css");
 :root {
     --color-primary: #f42;
     --color-secondary: #fd3;
