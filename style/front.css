@@ -10,6 +10,9 @@
 
 .front a{
     margin-bottom: 8px;
+    color: white;
+    padding: 60px 10px 10px 10px;
+    
 }
 
 .front img{
@@ -20,6 +23,7 @@
     background-image: url("../images/tnw2020-feature_img-02.jpg");     
     height: 180px;
     z-index: 10;
+    position: relative;
 }
 
 
@@ -27,11 +31,48 @@
 .watch{
     background-image: url("../images/tnw2020-feature_img-02.jpg");  
     height: 180px;
+    position: relative;
 }
 .tech{
     background-image: url("../images/image-1-2-796x417.png");    
-    height: 180px;    
+    height: 180px;   
+    position: relative; 
 }
+
+.tnw-tech-img {
+    display: none;
+}
+
+.front-content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.story-category {
+    margin-bottom: 0;
+
+}
+
+.story-heading {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.story-info span, .story-info span, .story-date {
+    font-size: 12px;
+    color:rgb(196, 189, 189);
+    font-weight: 600;
+}
+
+.story-date {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
 
 /* Medai Query For Tablets */
 @media screen and (min-width: 768px) {
@@ -46,9 +87,9 @@
     .front{
         height: 500px;        
         display: grid;
-        grid-template-columns: 60% 39%;
+        grid-template-columns: 65% 35%;
         grid-template-rows: repeat(2, 1fr);      
-        grid-gap: 10px;
+        grid-gap: 10px;        
     }     
 
     .front article{
@@ -61,34 +102,10 @@
         grid-row: 1/3;
     }
 
-    .launch-story-category {
-        position: absolute;
-        bottom: 140px;
-        color: #fff;
-        font-size: 1.5rem;
-        padding: 20px;
+    .launch-story-heading{        
+        font-size: 40px;        
     }
-
-    .launch-story-heading{
-        color: #fff;
-        position: absolute;
-        bottom: 60px;
-        font-size: 1.5rem;
-        padding: 20px;
-        font-weight: 700;
-    }
-
-    .launch-story-info{
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .launch-story-info span {
-        position: absolute;
-        bottom: 0px;
-        color: #fff;
-    }
-
+    
     .watch{          
         height: auto; 
         grid-column: 2;
@@ -99,28 +116,17 @@
         grid-column: 2;
         grid-row: 2;
     }   
-}
 
-/* MEDIA QUERY FOR MOBILE PHONES */
-@media screen and (max-width: 767px) {
-.launch-story-category {
-    position: absolute;
-    bottom: 460px;
-    color: #fff;
-    font-size: 1rem;
-    padding: 20px;
-}
+    .tnw-tech-img {
+        display: block;
+        width: 50%;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
 
-.launch-story-heading {
-    color: #fff;
-    position: absolute;
-    bottom: 400px;
-    font-size: 1.2rem;
-    padding: 20px;
-    font-weight: 600;
+    
 }
-}
-
 
 
 /* Medaia Query for min-tablet width */
@@ -138,6 +144,5 @@
     .latest-news-article{
         width: 25%;
     }   
-
 }
 

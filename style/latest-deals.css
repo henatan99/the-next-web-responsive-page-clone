@@ -1,8 +1,23 @@
 .latest-deals{
     width: 100%;
     height: auto;
-    padding: 16px;
-    color: black;
+    padding: 16px;    
+}
+
+
+.latest-deals h1 a{
+    font-size: 28px;    
+}
+
+.latest-deals-header a{
+    color: red;
+}
+
+.latest-deals-header {   
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .latest-deals-img{
@@ -17,7 +32,8 @@
 }
 
 .latest-deals h1{
-    text-decoration: none;
+    text-decoration: none;    
+   
 }
 
 .latest-deals small{
@@ -36,6 +52,11 @@
     text-decoration: none;
 }
 
+.latest-deals-content h2 a{
+    color: black;
+    font-weight: 800;
+}
+
 .latest-deals p{
     font-size: 14px;
     color: rgb(75, 73, 73);
@@ -45,6 +66,7 @@
     height: 5em;   
     float: left;
     margin-bottom: 10px;
+    padding-right: -14px;
 }
 
 
@@ -80,7 +102,9 @@
 
     .latest-deals-content {
         width: 100%;
-    }
+        padding: 0;
+        margin-top: 10px;
+    }   
 
 }
 

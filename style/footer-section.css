@@ -3,18 +3,54 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(175, 172, 172);
+    background: rgb(37, 36, 36);
+    color: white;
+    align-items: center;    
 }
 
+.footer-section a{
+    color: white;
+}
 .footer-top{
     width: 100%;
     background: rgb(77, 74, 74);
+    padding: 20px 10px 30px 20px;    
+    text-align: center;
 }
 .footer-icons{
     width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
 }
-.footer-lists li{
+
+.footer-icons a{
+    height: auto;
+    padding: 10px;
+    background: darkblue;
+    border-radius: 50px;
+}
+
+.footer-lists {
     display: flex;
-    flex-flow: row wrap;
-    list-style: none;  
+    justify-content: center;
+}
+
+
+.footer-lists a{    
+    list-style: none;      
+    padding: 5px;        
+}
+
+.copyright {
+    padding: 20px 20px 30px 20px;
+}
+
+.copyright img{
+    width: 30px;
+    float: left;
+}
+
+.copyright p{    
+    float: left;
 }

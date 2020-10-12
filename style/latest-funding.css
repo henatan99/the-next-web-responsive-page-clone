@@ -5,6 +5,7 @@
     font-size: 12px;        
 }
 
+
 .latest-funding-header {
     width: 100%;
 }
@@ -16,6 +17,8 @@
 .latest-funding-links{
     color: var(--color-primary);
     font-family: var(--font-family-secondary);
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .latest-funding-links::after{
@@ -35,12 +38,12 @@
 
 .funding-links a {
     color: var(--color-primary);
-    padding: 10px;
+    padding: 6px;
 }
 
 .lastest-funding article {  
     float: left;
-    background:rgb(212, 206, 206); 
+    background:rgb(253, 253, 253); 
     width: 98%;
     margin-top: 15px;
 }
@@ -72,13 +75,34 @@
 .top {
     background-color: tomato;
     height: auto;
-    padding:10px 10px 10px 25%;    
+    padding:10px 10px 10px 30%;  
+    color:white;  
+    font-size: 20px;
 }
 
 .dollar{
     height: auto;
-    background-color: thistle;
-    padding: 10px 10px 10px 25%;    
+    background-color: rgb(165, 161, 165);
+    padding: 10px 10px 10px 30%;    
+    color: black;
+}
+
+.icon-lists {
+    line-height: 24px;
+      
+}
+
+.funding-info a, .icon-lists a{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.icon-lists, .funding-info{
+    margin: 8px;        
+}
+
+.icon-lists p a, .funding-info a{   
+    color: gray;
 }
 
 
