@@ -13,7 +13,7 @@ This project is about cloning the next web responsive page. We use two break poi
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://henatan99.github.io/the-next-web-responsive-page-clone)
 
 ## Getting Started
 

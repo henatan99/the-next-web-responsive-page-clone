@@ -1,5 +1,5 @@
 .header {               
-    background: blue;     
+    background:#131313;
     width: 100%;    
     max-width: 100%;
     position: relative;
@@ -43,7 +43,6 @@
     display: none;
 }
 
-
 .nav2-right{
     position: absolute;
     right: 10px;
@@ -67,28 +66,44 @@
         max-width: 1024px;
     }
     
-    /* .tnw-img{
-        height: 76px;        
-    } */
     .navbar {
         display: flex; 
         flex-direction: row;   
         height: 32px;   
         width: 100%;
         align-items: center;  
-        background: rgb(19, 19, 19);     
+        background: #131313;
         justify-content: space-between;       
+        color: #fff;
     }    
     .nav-left, .nav2-left{
         display: flex;
         flex-direction: row;    
         align-items: center;
         float: left;       
-    }   
+    }  
+    
+
+    .navbar a{
+        color: #555;
+    }
+
+    .nav-left .is-active {
+        color: #fff;
+    }
 
     .nav2-left li{
         margin-left: -20px;
         padding-right: 42px;
+        font-family: var(--font-family-tertiary);
+    }
+
+    .nav2-left a{
+        color: var(--color-light-grey);
+    }
+
+    .nav2-left a:hover{
+        color: #777;
     }
 
     .nav-left li, .nav-right li{
@@ -123,7 +138,7 @@
 @media screen and (min-width: 1024px) {     
 
     * {             
-        max-width: 2560px;
+        max-width: 100%;
     }
 
       /* header section */     

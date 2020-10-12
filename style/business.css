@@ -20,11 +20,10 @@
     margin-bottom: 10px;
 }
 
-.business-article h1 img{
-    max-width: 20px;
-    float: right;    
+.business-article::after{
+    content: ">";
+    color: var(--color-primary);
 }
-
 
 .front img{
     size: 100%;
