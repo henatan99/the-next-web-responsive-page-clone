@@ -146,11 +146,11 @@
     font-family: var(--font-family-secondary);
   }
 
-   .title a::after {
+  .title a::after {
     content: ">";
     color: var(--color-primary);
     margin-left: 10px;
-  } 
+  }
 
   .deals-header {
     display: flex;
