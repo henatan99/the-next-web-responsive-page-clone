@@ -20,10 +20,10 @@
   margin-bottom: 14px;
 }
 
-.business-article h1::after {
+/* .business-article h1::after {
   content: ">";
   color: var(--color-primary);
-}
+} */
 
 .business-latest-content a {
   font-size: 14px;
@@ -39,7 +39,7 @@
 }
 
 .front img {
-  width: 100%;
+  width: 50%;
 }
 
 .business-most-popular {

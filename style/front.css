@@ -14,7 +14,7 @@
   padding: 60px 10px 10px 10px;
 }
 
-.front img {
+.front__img{
   width: 50%;
 }
 
@@ -130,7 +130,9 @@
   }
 
   /* Front section */
-
+  .front img {
+    width: 50%;
+  }
   /* Latest news article */
   .latest-news-article {
     width: 25%;
