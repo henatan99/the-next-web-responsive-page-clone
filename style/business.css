@@ -20,11 +20,6 @@
   margin-bottom: 14px;
 }
 
-/* .business-article h1::after {
-  content: ">";
-  color: var(--color-primary);
-} */
-
 .business-latest-content a {
   font-size: 14px;
   color: var(--color-primary);
@@ -36,6 +31,15 @@
   font-size: 26px;
   color: rgb(241, 50, 50);
   font-weight: 800;
+}
+
+.title::after {
+  content: ">";
+  color: var(--color-primary);
+  padding-left: 96px;
+  font-size: 2.5rem;
+  top: -37px;
+  position: relative;
 }
 
 .front img {
