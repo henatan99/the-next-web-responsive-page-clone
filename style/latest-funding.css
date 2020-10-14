@@ -1,0 +1,178 @@
+.deals {
+  width: 100%;
+  height: auto;
+  padding: 20px 5% 20px 5%;
+  font-size: 12px;
+}
+
+.deals-header {
+  margin-bottom: 24px;
+  font-size: 26px;
+}
+
+.title a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 26px;
+  font-family: var(--font-family-secondary);
+}
+
+.latest-news-links::after {
+  content: ">";
+  color: var(--color-primary);
+  padding-left: 10px;
+  font-size: 1.5rem;
+}
+
+.deals-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.deals-links a {
+  color: var(--color-primary);
+  font-size: 14px;
+  margin: 11px 0 0;
+  text-decoration: none;
+}
+
+.deal-box {
+  float: left;
+  position: relative;
+}
+
+.deal-box img {
+  width: 60px;
+  height: 60px;
+  margin: 9px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.company-name {
+  background: var(--color-primary);
+  color: white;
+  padding: 11px 16px 11px 84px;
+  margin: 0;
+  font-size: 18px;
+  position: relative;
+}
+
+.fund-details {
+  background: var(--color-light-primary);
+  padding: 11px 16px 11px 84px;
+  margin: 0;
+}
+
+.fund-details h5 {
+  color: var(--color-light-grey);
+  font-family: var(--font-family-tertiary);
+  margin: 0;
+}
+
+.deal-value {
+  font-size: 18px;
+  color: black;
+  margin: 0;
+}
+
+.deal-info {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: var(--color-light-pink);
+}
+
+.deal-info span {
+  margin-bottom: 13px;
+}
+
+.deal-info i {
+  margin-right: 10px;
+}
+
+.deal-byline {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  padding: 10px 16px 16px;
+  background-color: var(--color-light-pink);
+}
+
+.deal-byline a {
+  color: var(--color-medium-grey);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.deal-byline a span {
+  color: var(--color-light-grey);
+  font-size: 12px;
+}
+
+.deal-box:last-child {
+  display: none;
+}
+
+.title a::after {
+  content: ">";
+  color: var(--color-primary);
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .deal-box {
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  .deals-header {
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .deal-box {
+    width: 25%;
+  }
+
+  .deals-links {
+    flex-direction: row;
+  }
+
+  .deals-links a::after {
+    content: "|";
+    margin: 0 10px;
+  }
+
+  .deals-links a:last-child::after {
+    display: none;
+  }
+
+  .deals-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .deal-box:last-child {
+    display: block;
+  }
+
+  .title a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 26px;
+    font-family: var(--font-family-secondary);
+  }
+
+  .deals-header {
+    align-items: center;
+  }
+
+  .deals-header h2 {
+    margin-bottom: 10px;
+  }
+
+  .deals-links a {
+    margin: 0;
+  }
+}

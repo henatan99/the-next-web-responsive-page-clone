@@ -1,0 +1,152 @@
+.header {
+  background: #131313;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  color: rgb(103, 103, 103);
+}
+
+.tnw-img {
+  height: 100%;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: black;
+  padding: 1rem;
+}
+
+.nav-wrapper {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.navbar {
+  display: none;
+}
+
+.navbar2 {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav2-left {
+  display: none;
+}
+
+.nav2-right {
+  position: absolute;
+  right: 10px;
+}
+
+.search-icon {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.menu-icon {
+  font-size: 29px;
+  color: red;
+  padding-top: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    max-width: 1024px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+    width: 100%;
+    align-items: center;
+    background: #131313;
+    justify-content: space-between;
+    color: #fff;
+  }
+
+  .nav-left,
+  .nav2-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+  }
+
+  .navbar a {
+    color: #555;
+    font-size: 12px;
+  }
+
+  .nav-left .is-active {
+    color: #fff;
+  }
+
+  .nav2-left li {
+    margin-left: -20px;
+    padding-right: 42px;
+    font-family: var(--font-family-tertiary);
+  }
+
+  .nav2-left a {
+    color: var(--color-light-grey);
+  }
+
+  .nav2-left a:hover {
+    color: #777;
+  }
+
+  .nav-left li,
+  .nav-right li {
+    margin-left: -20px;
+    padding-right: 30px;
+  }
+
+  .nav-right,
+  .nav2-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -5px;
+  }
+
+  .header li {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-hide {
+    display: none;
+  }
+}
+
+/* Medaia Query for min-tablet width */
+
+@media screen and (min-width: 1024px) {
+  * {
+    max-width: 100%;
+  }
+
+  .nav-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  .tnw-img {
+    display: none;
+  }
+}

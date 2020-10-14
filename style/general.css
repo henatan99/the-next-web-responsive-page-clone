@@ -1,0 +1,63 @@
+/* General Styling */
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("./navbar.css");
+@import url("./front.css");
+@import url("./latest-news.css");
+@import url("./latest-funding.css");
+@import url("./business.css");
+@import url("./latest-deals.css");
+@import url("./footer-section.css");
+
+:root {
+  --color-primary: #f42;
+  --color-secondary: #fd3;
+  --color-tertiary: #0cc;
+  --color-light-primary: rgba(255, 68, 34, 0.06);
+  --color-dark-grey-1: #131313;
+  --color-dark-grey-2: #333;
+  --color-medium-grey: #555;
+  --color-light-grey: #aaa;
+  --color-light-pink: #fffaf8;
+  --font-family-primary: "Open Sans", sans-serif;
+  --font-family-secondary: "Poppins", sans-serif;
+  --font-family-tertiary: "Rajdhani", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 630;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  * {
+    max-width: 2560px;
+  }
+}
