@@ -1,7 +1,7 @@
 .latest-deals {
   width: 100%;
   height: auto;
-  padding: 16px;
+  padding: 103px;
 }
 
 .latest-deals-header a {
@@ -57,6 +57,10 @@
 .latest-deals p {
   font-size: 14px;
   color: rgb(75, 73, 73);
+}
+
+.lastest__link{
+  padding-right: 15px;
 }
 
 .latest-deals article {

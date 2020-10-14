@@ -1,80 +1,83 @@
-.footer-section {
-  width: 100%;
+.social-links {
+  padding: 4rem 0;
+  font-size: 1.3rem;
+  color: rgb(199, 199, 199);
+  letter-spacing: -0.9px;
+  background-color: rgb(19, 19, 19);
+}
+
+.first-links a{
+text-decoration: none;
+color: inherit;
+}
+
+.social-links ul {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  background: rgb(37, 36, 36);
-  color: white;
-  align-items: center;
-  line-height: 10px;
+  justify-items: center;
 }
 
-.footer-section a,
-.footer-section p {
-  color: white;
-  font-size: 12px;
-  line-height: 20px;
-  font-weight: 200;
+.social-links .icon {
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
-.footer-top {
-  width: 100%;
-  background: rgb(77, 74, 74);
-  padding: 20px 20px 30px 20px;
+.social-links ul:first-of-type {
+  margin-bottom: 3rem;
 }
 
-.footer-icons {
-  width: 100%;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  text-align: center;
+.social-links li {
+  margin: 0 0.75rem;
 }
 
-.footer-icons a {
-  height: auto;
-  padding: 8px 11px 8px 11px;
-  background: rgb(58, 57, 57);
-  border-radius: 32px;
-}
-
-.footer-lists {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+.social-links ul:first-of-type li {
   padding: 11px;
+  background-color: rgb(47, 47, 47);
+  border-radius: 50%;
 }
 
-.footer-lists a {
-  list-style: none;
-  padding: 5px;
+.last-links a{
+  color:rgb(199, 199, 199);
+  
 }
 
 .copyright {
-  padding: 30px 30px 30px 30px;
-  text-align: center;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 0;
+  font-size: 1.3rem;
+  color: #999;
+  background: #000;
+  text-align: center;
 }
 
-.footer-img-1 {
-  width: 36px;
-  float: left;
-  padding-top: 5px;
-}
-
-.footer-img-2 {
-  float: right;
-  width: 50px;
-}
-
-.copyright span {
+.copyright .icon {
   display: inline-block;
-  width: 85%;
-  line-height: 20px;
 }
 
-@media screen and (min-width: 1024px) {
+.i-tnw-small {
+  background-image: url('../images/tnw.svg');
+  width: 45px;
+  height: 11px;
+}
+
+.i-stackpath {
+  background-image: url('../images/stackpath.svg');
+  width: 70px;
+  height: 11px;
+}
+
+@media (max-width: 768px) {
   .copyright {
-    display: inline-block;
+    display: block;
+  }
+
+  .copyright p:nth-child(2) {
+    padding: 0.5rem 0;
+  }
+
+  .hide-small-large {
+    display: none;
   }
 }

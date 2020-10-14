@@ -82,7 +82,7 @@
   .front {
     height: 500px;
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 64% 35%;
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
   }

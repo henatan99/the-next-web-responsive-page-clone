@@ -1,17 +1,10 @@
 .deals {
   margin-bottom: 30px;
-  padding: 20px;
+  width: 100%;
 }
 
 .deals-header {
   margin-bottom: 24px;
-}
-
-.title a {
-  color: var(--color-primary);
-  text-decoration: none;
-  font-size: 26px;
-  font-family: var(--font-family-secondary);
 }
 
 .deals-links {
@@ -137,19 +130,6 @@
 
   .deal-box:last-child {
     display: block;
-  }
-
-  .title a {
-    color: var(--color-primary);
-    text-decoration: none;
-    font-size: 26px;
-    font-family: var(--font-family-secondary);
-  }
-
-  .title a::after {
-    content: ">";
-    color: var(--color-primary);
-    margin-left: 10px;
   }
 
   .deals-header {
