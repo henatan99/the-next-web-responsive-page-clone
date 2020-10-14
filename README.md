@@ -9,7 +9,7 @@ This project is about cloning the next web responsive page. We use two break poi
 - CSS
 - Google Fonts
 
- <img src="./images/project-screenshoot.jpg">
+ <img src="./images/page-image.png">
 
 
 ## Live Demo
