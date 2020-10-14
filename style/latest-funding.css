@@ -8,8 +8,7 @@
 
 .deals-header {  
   margin-bottom: 24px;
-  font-size: 26px;
-  padding: 0 10px 0 10px;
+  font-size: 26px; 
 
 }
 
@@ -129,6 +128,10 @@
   .deal-box {
     width: 33.33%;
     padding: 10px;
+  }
+
+  .deals-header {
+    padding: 0 10px 0 10px;
   }
 }
 
