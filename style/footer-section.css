@@ -33,7 +33,6 @@
 .footer-icons a {
   height: auto;
   padding: 15px 13px 12px 15px;
-
   background: rgb(58, 57, 57);
   border-radius: 32px;
 }
@@ -90,7 +89,4 @@
   .footer-icons a {
     padding: 18px 17px 17px 19px;
   }
-}
-
-@media screen and (min-width: 1024px) {
 }
