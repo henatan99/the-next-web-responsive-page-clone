@@ -9,13 +9,9 @@
 }
 
 .front a {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   color: white;
-  padding: 60px 10px 10px 10px;
-}
-
-.front__img {
-  width: 50%;
+  padding: 0;
 }
 
 .launch {
@@ -82,7 +78,7 @@
   .front {
     height: 500px;
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 64% 35%;
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
   }
@@ -130,12 +126,6 @@
   }
 
   /* Front section */
-  .front img {
-    width: 50%;
-  }
-
-  /* Latest news article */
-  .latest-news-article {
-    width: 25%;
-  }
+ 
+  
 }

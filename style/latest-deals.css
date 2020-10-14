@@ -1,7 +1,8 @@
-.latest-deals {
+.latest-deals {   
   width: 100%;
   height: auto;
-  padding: 16px;
+  padding: 20px 5% 20px 5%;
+  font-size: 12px;
 }
 
 .latest-deals-header a {
@@ -10,6 +11,13 @@
 
 .latest-deals h1 a {
   font-size: 28px;
+}
+
+.latest-deals h1 a::after {
+  content: ">";
+  color: var(--color-primary);
+  padding-left: 10px;
+  font-size: 1.5rem;
 }
 
 .latest-deals-header {
@@ -75,9 +83,13 @@
     width: 100%;
   }
 
+  .latest-deals-header{
+    margin: 0 10px 0 10px;
+  }
+
   .latest-deals article {
     width: 33.33%;
-    padding-right: 10px;
+    padding: 10px;
     height: auto;
     position: relative;
   }
@@ -91,7 +103,7 @@
     display: block;
     width: 30%;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 10px;
   }
 

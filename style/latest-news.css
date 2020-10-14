@@ -2,7 +2,7 @@
 .latest-news {
   width: 100%;
   height: auto;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 5% 20px 5%;
   font-size: 12px;
 }
 
@@ -14,7 +14,7 @@
 .latest-news h1 a {
   margin: 0 0 12px 0;
   font-size: 26px;
-  color: rgb(241, 50, 50);
+  color:var(--color-primary)
 }
 
 .latest-news-links {
@@ -31,13 +31,15 @@
 
 .latest-news-article {
   width: 100%;
+  height: auto;
   font-size: 9px;
   float: left;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
 
 .latest-news-article img {
   width: 25%;
+  height: 68px;
   float: left;
 }
 
@@ -63,24 +65,36 @@
   }
 
   /* Latest news section */
-
+/* 
   .latest-news {
-    padding: 20px 1px 20px 20px;
+    padding: 20px 50px 20px 50px;
+  } */
+
+  .latest-news h1 a {
+    padding: 10px;
   }
 
+
+
   .latest-news-article {
-    width: 33%;
-    padding-right: 20px;
+    width: 33.33%;
+    height: 206px;
     margin-bottom: 20px;
+  }
+
+  .article-wrapper{
+    padding: 10px;
   }
 
   .latest-news-article img {
     width: 100%;
     height: 130px;
+    object-fit: cover;
   }
 
   .latest-news-text {
     width: 100%;
+    padding: 0;
     margin-top: 8px;
   }
 }
@@ -92,10 +106,7 @@
     max-width: 2560px;
   }
 
-  /* Latest news article */
-  .latest-news {
-    padding: 20px 6rem 20px 6rem;
-  }
+  /* Latest news article */  
 
   .latest-news-article {
     width: 25%;

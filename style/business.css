@@ -1,10 +1,14 @@
-.business-article {
+.business-articles-section {      
   width: 100%;
   height: auto;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 5% 20px 5%;
   font-size: 12px;
+}
+
+.business-article {
   float: left;
 }
+
 
 .business-front {
   height: 300px;
@@ -33,13 +37,6 @@
   font-weight: 800;
 }
 
-.title::after {
-  color: var(--color-primary);
-  padding-left: 96px;
-  font-size: 2.5rem;
-  top: -37px;
-  position: relative;
-}
 
 .front img {
   width: 50%;
@@ -95,7 +92,7 @@
 }
 
 .business-tech {
-  background-image: url("../images/image-12.jpg");
+  background-image: url("../images/crispr.jpg");
   height: 180px;
   height: auto;
   grid-column: 2;
@@ -103,20 +100,24 @@
   background-size: cover;
 }
 
+.business-list {
+  padding: 3px;
+  
+}
+
 .business-list li {
   border-bottom: 0.1px solid;
-  padding: 10px 0 10px 0;
+  padding: 5px;
   border-color: rgb(238, 232, 232);
+  list-style-type: none;
 }
 
 .business-list li a {
-  display: block;
-  padding: 6px 0 6px 14px;
-  position: relative;
   font-size: 13px;
   text-decoration: none;
   color: var(--color-medium-grey);
   line-height: 1.6;
+  position: relative;
 }
 
 .business-list li a::before {
@@ -127,8 +128,8 @@
   background-color: var(--color-primary);
   border-radius: 50%;
   position: absolute;
-  top: 13px;
-  left: 0;
+  top: 5px;
+  left: -8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -140,7 +141,7 @@
 
   .business-article {
     width: 50%;
-    padding-right: 5px;
+    padding: 10px;    
   }
 }
 
@@ -154,7 +155,6 @@
   /* Business articles section */
 
   .business-article {
-    width: 33%;
-    padding-right: 5px;
+    width: 33.33%;     
   }
 }

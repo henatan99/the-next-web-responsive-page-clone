@@ -72,7 +72,7 @@
     align-items: center;
     background: #131313;
     justify-content: space-between;
-    color: #fff;
+    color: #fff;    
   }
 
   .nav-left,
@@ -85,6 +85,7 @@
 
   .navbar a {
     color: #555;
+    font-size: 12px;
   }
 
   .nav-left .is-active {
@@ -116,6 +117,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: -5px;
   }
 
   .header li {
@@ -124,6 +126,10 @@
   }
 
   .menu-icon {
+    display: none;
+  }
+
+  .nav-hide {
     display: none;
   }
 }
