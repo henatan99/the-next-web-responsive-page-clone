@@ -72,7 +72,7 @@
     align-items: center;
     background: #131313;
     justify-content: space-between;
-    color: #fff;    
+    color: #fff;
   }
 
   .nav-left,
@@ -140,8 +140,6 @@
   * {
     max-width: 100%;
   }
-
-  /* header section */
 
   .nav-wrapper {
     width: 100%;

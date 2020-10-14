@@ -1,4 +1,4 @@
-.deals {  
+.deals {
   width: 100%;
   height: auto;
   padding: 20px 5% 20px 5%;
@@ -6,10 +6,9 @@
   font-size: 12px;
 }
 
-.deals-header {  
+.deals-header {
   margin-bottom: 24px;
-  font-size: 26px; 
-
+  font-size: 26px;
 }
 
 .title a {
@@ -17,7 +16,6 @@
   text-decoration: none;
   font-size: 26px;
   font-family: var(--font-family-secondary);
-
 }
 
 .latest-news-links::after {
@@ -28,8 +26,8 @@
 }
 
 .deals-links {
-  display: flex;  
-  flex-direction: column;   
+  display: flex;
+  flex-direction: column;
 }
 
 .deals-links a {
@@ -124,7 +122,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  
   .deal-box {
     width: 33.33%;
     padding: 10px;
@@ -136,7 +133,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-
   .deal-box {
     width: 25%;
   }
@@ -172,16 +168,15 @@
     text-decoration: none;
     font-size: 26px;
     font-family: var(--font-family-secondary);
-  }  
+  }
 
-  .deals-header {    
+  .deals-header {
     align-items: center;
   }
 
-  .deals-header h2{    
+  .deals-header h2 {
     margin-bottom: 10px;
   }
-
 
   .deals-links a {
     margin: 0;

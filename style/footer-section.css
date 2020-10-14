@@ -33,7 +33,7 @@
 .footer-icons a {
   height: auto;
   padding: 15px 13px 12px 15px;
-  
+
   background: rgb(58, 57, 57);
   border-radius: 32px;
 }
@@ -74,13 +74,13 @@
   line-height: 20px;
 }
 
-.footer-icon-hidden{
+.footer-icon-hidden {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
   .copyright {
-    display:inline;
+    display: inline;
   }
 
   .footer-icon-hidden {
@@ -89,13 +89,8 @@
 
   .footer-icons a {
     padding: 18px 17px 17px 19px;
-  } 
-
-
+  }
 }
 
-@media screen and (min-width: 1024px) {   
-
-
+@media screen and (min-width: 1024px) {
 }
-

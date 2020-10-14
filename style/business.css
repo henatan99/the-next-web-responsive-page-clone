@@ -1,4 +1,4 @@
-.business-articles-section {      
+.business-articles-section {
   width: 100%;
   height: auto;
   padding: 20px 5% 20px 5%;
@@ -8,7 +8,6 @@
 .business-article {
   float: left;
 }
-
 
 .business-front {
   height: 300px;
@@ -36,7 +35,6 @@
   color: rgb(241, 50, 50);
   font-weight: 800;
 }
-
 
 .front img {
   width: 50%;
@@ -102,7 +100,6 @@
 
 .business-list {
   padding: 3px;
-  
 }
 
 .business-list li {
@@ -137,11 +134,9 @@
     max-width: 1024px;
   }
 
-  /* Business articles section */
-
   .business-article {
     width: 50%;
-    padding: 10px;    
+    padding: 10px;
   }
 }
 
@@ -152,9 +147,7 @@
     max-width: 2560px;
   }
 
-  /* Business articles section */
-
   .business-article {
-    width: 33.33%;     
+    width: 33.33%;
   }
 }

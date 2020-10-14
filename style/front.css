@@ -73,8 +73,6 @@
     max-width: 1024px;
   }
 
-  /* Front */
-
   .front {
     height: 500px;
     display: grid;
@@ -118,14 +116,17 @@
   }
 }
 
-/* Medaia Query for min-tablet width */
+/* Medaia Query for min-laptop width */
+
+@media screen and (min-width: 768px) {
+  .front a {
+    margin-bottom: 0;
+  }
+}
+/* Medaia Query for min-laptop width */
 
 @media screen and (min-width: 1024px) {
   * {
     max-width: 2560px;
   }
-
-  /* Front section */
- 
-  
 }
