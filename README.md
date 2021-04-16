@@ -1,6 +1,6 @@
 # the-next-web-responsive-page-clone
-This project is about cloning the next web responsive page. We use two break points from the responsive page, 768px and 1024px for mobile L to tablet and tablet to laptop view ports transitions.
-This project is about cloning the next web responsive page. We use two break points from the responsive page, 425px and 768px for mobile L to tablet and tablet to laptop view ports transitions.
+This project is about cloning the next web responsive page. We use two breakpoints from the responsive page, 768px and 1024px for mobile L to tablet and tablet to laptop view port transitions.
+This project is about cloning the next web responsive page. We use two breakpoints from the responsive page, 425px and 768px for mobile L to tablet and tablet to laptop viewports transitions.
 
 
 ## Built With
@@ -46,5 +46,5 @@ Give a :star: if you like this project
 
 ## Acknowledgments
 
-- [Font-awesome](https://fontawesome.com/) for it's Awesome Icons
-- [Google Fonts](https://fonts.google.com/) for it's Amazing Fonts
+- [Font-awesome](https://fontawesome.com/) for its Awesome Icons
+- [Google Fonts](https://fonts.google.com/) for its Amazing Fonts
